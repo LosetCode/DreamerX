@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LogoActivity!</string>
+    <string name="app_name">DreamerX</string>
+    <string name="login">登 录</string>
+    <string name="authTip">授权提示</string>
+    <string name="authTipMsg">是否使用您的新浪 微博账号进行授权</string>
+    <string name="auth_url_empty">授权地址为空</string>
+    
+    
+    
+    <string name="home">主页</string>
+    <string name="at">提及</string>
+    <string name="msg">信息</string>
+    <string name="more">更多</string>
+    <string name="Login_PassWord">密码：</string>
+    
+    <string name="Login_Id">账户：</string>
+    <string name="Password">密码：</string>
+    <string name="register">注册</string>
+    <string name="nakename">nakename</string>
+    <string name="hint_id">账号</string>
+    <string name="hint_password">输入密码</string>
+    <string name="reg_note">请输入信息</string>
+    <string name="hint_confirm_password">确认密码</string>
+    <string name="hint_nakename">昵称</string>
+    <string name="hint_email">邮箱</string>
+    <string name="hint_sex">性别</string>
+    <string name="hint_address">地址</string>
+    
+    <string name="reg_error_userNameEmpty">用户名不能为空</string>
+   	<string name="reg_error_passwordEmpty">密码不能为空</string>
+   	<string name="reg_error_confirmEmpty">确认密码不能为空</string>
+   	<string name="reg_error_confirmError">密码未确认</string>
+   	<string name="reg_error_userNameConflict">用户名已存在</string>
+ 
+</resources>

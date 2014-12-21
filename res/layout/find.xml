@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/title_bar_find"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/sort_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sort_all_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_friends_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_notfriends__bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_popular_bt" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sort_publicgood_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_school_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_personal_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_social_bt" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sort_business_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_art_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_travel_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_game_bt" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sort_intennet_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_design_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_news_bt" />
+
+            <Button
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:background="@drawable/sort_research_sort_bt" />
+        </LinearLayout>
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

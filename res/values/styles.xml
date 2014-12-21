@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="dreamer_rb_style">
+        <item name="android:button">@null</item>
+        
+        </style>
+        
+          
+
+    <style name="find_rb_style">
+        <item name="android:button">@null</item>
+        
+    </style>  
+
+    <style name="message_rb_style">
+        <item name="android:button">@null</item>
+       
+    </style>
+
+    <style name="user_rb_style">
+        <item name="android:button">@null</item>
+       
+     
+    </style>
+
+    <style name="list_rb_style">
+        <item name="android:button">@null</item>
+       
+    </style>
+    
+    
+    
+    </resources>

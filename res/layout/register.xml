@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    
+    
+    
+    
+    
+    <EditText
+            android:id="@+id/register_nakename"
+            android:layout_width="200dip"
+            android:layout_height="30dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5.0px"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="50dip"
+            android:background="@drawable/d_bar_bg"
+            android:hint="@string/hint_nakename"
+            android:textColorHint="#778899"
+            android:inputType="text"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+    
+    
+     <EditText
+            android:id="@+id/register_email"
+            android:layout_width="200dip"
+            android:layout_height="30dip"
+            android:layout_marginBottom="5.0px"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/d_bar_bg"
+            android:hint="@string/hint_email"
+            android:textColorHint="#778899"
+            android:inputType="textEmailAddress"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+    
+    
+    <EditText
+            android:id="@+id/register_password"
+            android:layout_width="200dip"
+            android:layout_height="30dip"
+            android:layout_marginBottom="5.0px"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/d_bar_bg"
+            android:hint="@string/hint_password"
+            android:textColorHint="#778899"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+    
+    <EditText
+            android:id="@+id/register_confirm_password"
+            android:layout_width="200dip"
+            android:layout_height="30dip"
+            android:layout_marginBottom="5.0px"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/d_bar_bg"
+            android:hint="@string/hint_confirm_password"
+            android:textColorHint="#778899"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+    
+   
+    
+    
+    <Button 
+        android:id="@+id/register_btn"
+         android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        
+        
+        
+        
+        
+       />
+      
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

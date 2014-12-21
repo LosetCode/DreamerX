@@ -1,0 +1,82 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:id="@android:id/tabhost"
+    
+     >
+    
+    
+    <TabWidget  android:id="@android:id/tabs"
+         android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+        />
+    
+    <FrameLayout 
+        android:id="@android:id/tabcontent"
+       android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+        
+        />
+        
+        
+        
+    
+    <RadioGroup
+        android:id="@+id/rg_main_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom"
+        android:background="#E6E6FA"
+        android:orientation="horizontal" >
+        
+
+        <RadioButton
+            android:id="@+id/dreamer_rb"
+            style="@style/dreamer_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/dreamer_rb_bg_d" />
+
+        <RadioButton
+            android:id="@+id/find_rb"
+            style="@style/find_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/find_rb_bg_d" />
+
+        <RadioButton
+            android:id="@+id/list_rb"
+            style="@style/list_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            
+            android:layout_weight="1"
+            android:background="@drawable/list_rb_bg_d" />
+
+        <RadioButton
+            android:id="@+id/message_rb"
+            style="@style/message_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/message_rb_bg_d" />
+
+        <RadioButton
+            android:id="@+id/user_rb"
+            style="@style/user_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/user_rb_bg_d" />
+
+    </RadioGroup>
+    
+
+
+</TabHost>

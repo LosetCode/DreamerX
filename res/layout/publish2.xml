@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/d_bar_bg" >
+        
+                <Button
+            android:id="@+id/publish_btn"
+            
+            android:layout_width="50dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_bg_tm"
+            android:textColor="#FFFFFF"
+            android:text="发布"
+             />
+
+        
+
+        <Button
+            android:id="@+id/write_bt_backone"
+            android:layout_width="50dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_bg_tm"
+            android:textColor="#FFFFFF"
+            android:text="返回" 
+            />
+
+        <TextView
+            android:id="@+id/write_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发起项目"
+            android:textColor="#FFFFFF"
+            android:textSize="25dip" />
+
+        <!--
+        <Button
+            android:id="@+id/publish_btn"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/publish_bt2" />
+
+        <Button
+            android:id="@+id/photo_btn"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_alignBaseline="@+id/publish_btn"
+            android:layout_alignBottom="@+id/publish_btn"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/publish_btn"
+            android:background="@drawable/photo_bt" />
+            
+            
+            -
+        -->
+
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/write_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发起人姓名:"
+                android:layout_marginLeft="5dip" />
+
+            <EditText
+                android:id="@+id/leaderName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/touming1"
+                android:hint="请填写本人真实姓名"
+                android:textColorHint="#C0C0C0"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="45dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身份证号码:" 
+                android:layout_marginLeft="5dip"/>
+
+            <EditText
+                android:id="@+id/leaderId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/touming1"
+                android:hint="请填写本人真实身份证号码"
+                android:textColorHint="#C0C0C0"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="75dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话:" 
+                android:layout_marginLeft="5dip"/>
+
+            <EditText
+                android:id="@+id/leaderPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/touming1"
+                android:hint="请填写本人电话号码"
+                android:textColorHint="#C0C0C0"
+                android:textSize="15dip" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_marginTop="115dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+             >
+        
+        
+            
+            
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="添加封面照片"
+            
+            
+            />
+         
+       
+             <Button 
+            
+            android:id="@+id/write_bt_addphoto1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/write_bt_add1"
+           
+            
+            
+            
+            
+            />
+             <com.droidstouch.iweibo.util.myedit_util
+        android:id="@+id/editdream"
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:background="@null"
+        android:inputType="none"
+        android:singleLine="false"
+        android:textColor="#4F4F4F" />
+        
+         
+        
+        
+         
+        </LinearLayout>
+        
+        
+         <LinearLayout
+            android:layout_marginTop="185dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+             >
+        
+        
+            
+            
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="添加内容照片"
+            
+            
+            />
+         
+       
+             <Button 
+            
+            android:id="@+id/write_addphoto2"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/write_bt_add1"
+           
+            
+            
+            
+            
+            />
+        
+         <com.droidstouch.iweibo.util.myedit_util
+        android:id="@+id/editdream2"
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:background="@null"
+        android:inputType="none"
+        android:singleLine="false"
+        android:textColor="#4F4F4F" />
+        
+        
+         
+        </LinearLayout>
+        
+         
+         
+         
+         
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="270dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:text="输入详情:" 
+                android:layout_marginLeft="5dip"/>
+
+         
+            <EditText
+                android:id="@+id/itemDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dip"
+                android:gravity="top"
+                android:background="@drawable/touming1"
+                android:hint="请填写项目详细介绍"
+                android:textColorHint="#C0C0C0"
+                android:textSize="15dip" />
+            
+           
+            
+             <com.droidstouch.iweibo.util.myedit_util
+        android:id="@+id/editdream"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@null"
+        android:inputType="none"
+        android:singleLine="false"
+        android:textColor="#4F4F4F" />
+        </LinearLayout>
+         
+         
+         
+         
+         
+         
+         
+        
+        
+ <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="180dip"
+            android:background="@drawable/line" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="110dip"
+            android:background="@drawable/line" />
+        
+        
+        
+        
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="250dip"
+            android:background="@drawable/line" />
+        
+        
+        
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

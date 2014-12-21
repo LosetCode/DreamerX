@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_bar_bg" >
+
+        <TextView
+            android:id="@+id/nakename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dip"
+            android:text="@string/nakename"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            
+            android:layout_marginRight="4dip"
+            android:background="@drawable/setting_btn" />
+
+        <Button
+            android:id="@+id/btn_add_friend"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dip"
+            android:layout_toLeftOf="@id/btn_setting"
+            android:background="@drawable/add_friend_btn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/information_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip" 
+        android:layout_marginTop="3dip"
+        >
+
+        <ImageView
+            android:id="@+id/userpic"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/userpic_bg" />
+
+        <LinearLayout
+            android:id="@+id/information_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="39dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="2dip"
+            android:layout_toRightOf="@id/userpic"
+            android:background="@drawable/tabhost_btn"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/information_bar2"
+            android:layout_width="fill_parent"
+            android:layout_height="39dip"
+            android:layout_below="@id/information_bar"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@id/userpic"
+            android:background="@drawable/tabhost_btn"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                
+                 <!--  用户性别   -->
+                
+                
+                
+                <TextView
+                    android:id="@+id/user_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dip"
+                    android:text="男，"
+                    android:textSize="12sp" />
+
+               
+                
+                
+                <!--  用户地址   -->
+                
+                
+                <TextView
+                    android:id="@+id/user_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="常住武汉"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            
+            
+            
+            
+             <!--  用户简介   -->
+             
+             
+            <TextView
+                android:id="@+id/user_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="4dip"
+                android:text="梦想还是要有的"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+     <RadioGroup
+        android:id="@+id/rg_main_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:background="@drawable/user_rb_bg1"
+        android:orientation="horizontal" >
+
+       
+
+        <RadioButton
+            android:id="@+id/find_rb"
+            style="@style/find_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/user_rbtn_bg" 
+            />
+
+       
+        <RadioButton
+            android:id="@+id/message_rb"
+            style="@style/message_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+             android:background="@drawable/user_rbtn_bg"  />
+
+        <RadioButton
+            android:id="@+id/user_rb"
+            style="@style/user_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+             android:background="@drawable/user_rbtn_bg"  />
+
+    </RadioGroup>
+    
+    
+    
+    
+
+</LinearLayout>

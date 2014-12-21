@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/d_bar_bg" >
+
+        
+        
+        
+        
+
+        
+        <Button
+            android:id="@+id/write_bt_back"
+           android:layout_width="50dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_bg_tm"
+            android:textColor="#FFFFFF"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/write_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发起项目"
+            android:textColor="#FFFFFF" 
+            android:textSize="25dip"/>
+
+       
+
+            
+             <Button
+            android:id="@+id/next"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_bg_tm"
+            android:textColor="#FFFFFF"
+            android:text="下一步"
+
+
+             />
+            
+            
+            
+           
+            
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/write_et_bg_intro" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:text="标题："
+            android:textSize="18dip" />
+
+        <EditText
+            android:id="@+id/edit_Title"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/touming"
+            android:hint="例：I have a dreame"
+            android:textSize="15dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="74dip"
+            android:text="简介："
+            android:textSize="18dip" />
+
+        <EditText
+            android:id="@+id/edit_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="98dip"
+            android:background="@drawable/touming"
+            android:gravity="top"
+            android:hint="例：我想写一手好诗"
+            android:maxHeight="50dip"
+            android:maxLines="4"
+            android:textSize="15dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/write_bg_sort" >
+
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="8dip"
+            android:text="选择类型:"
+            android:textSize="18dip" />
+        <TextView 
+            android:id="@+id/txt_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="5dip"
+            android:layout_marginTop="8dip"
+            android:textSize="18dip"
+            
+            android:textColor="#A9A9A9"
+            
+            />
+         <TextView 
+            android:id="@+id/txt_sort2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="5dip"
+            android:layout_marginTop="8dip"
+            android:textSize="18dip"
+            
+            android:textColor="#A9A9A9"
+            
+            />
+        
+        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            
+            android:layout_marginTop="45dip"
+             >
+
+            <Button
+                android:id="@+id/sort_bt_personal"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/geren"
+                android:text="个人"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_team"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_team"
+                android:text="团队"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_school"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_school"
+                android:text="校园"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_social"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_socity"
+                android:text="社会"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            
+            android:layout_marginTop="120dip"
+             >
+
+            <Button
+                android:id="@+id/sort_bt_goodthing"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_goodthing"
+                android:text="公益"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_chuangye"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_chuangye"
+                android:text="创业"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_search"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_search"
+                android:text="科研"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sort_bt_internet"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/sort_bg_internet"
+                android:text="互联网"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.droidstouch.iweibo.util.myedit_util
+        android:id="@+id/editdream"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@null"
+        android:inputType="none"
+        android:singleLine="false"
+        android:textColor="#4F4F4F" />
+
+</LinearLayout>

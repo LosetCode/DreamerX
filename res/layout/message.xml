@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/dreamerx_bar" >
+
+        </RelativeLayout>
+        
+         <RadioGroup
+        android:id="@+id/rg_main_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/message_bar_bg"
+        android:orientation="horizontal" >
+
+       
+
+        <RadioButton
+            android:id="@+id/find_rb"
+            style="@style/find_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/user_rbtn_bg" 
+            android:text="私信"
+            android:gravity="center"
+            />
+
+       
+        <RadioButton
+            android:id="@+id/message_rb"
+            style="@style/message_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="通知"
+            android:gravity="center"
+             android:background="@drawable/user_rbtn_bg"  />
+        
+         <RadioButton
+            android:id="@+id/message_rb"
+            style="@style/message_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="支持"
+            android:gravity="center"
+             android:background="@drawable/user_rbtn_bg"  />
+
+       
+
+    </RadioGroup>
+    
+        
+
+      <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:layout_marginTop="130dip"
+            >
+
+        <ImageView
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+          android:layout_gravity="center"
+            android:background="@drawable/message_bgg" >
+            
+        </ImageView>
+        <TextView 
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这里将显示你的私信"
+            android:layout_marginTop="10dip"
+            android:layout_gravity="center"
+            />
+        
+        </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

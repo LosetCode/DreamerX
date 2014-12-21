@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.droidstouch.iweibo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.INTERNET" />
+<!--往sdcard中写入数据的权限 -->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<!--在sdcard中创建/删除文件的权限 -->
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            
+            
+           android:name="com.droidstouch.iweibo.ui.LogoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.droidstouch.iweibo.ui.LoginActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.DreamerActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.RegisterActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.LoginSuccess" />
+        <activity android:name="com.droidstouch.iweibo.ui.MainActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.IweiboActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.PublishActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.PublishActivity2" />
+        <activity android:name="com.droidstouch.iweibo.ui.FindActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.ListActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.MessageActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.UserActivity" />
+        <activity android:name="com.droidstouch.iweibo.ui.SearchActivity" />
+        
+
+        <service android:name="com.droidstouch.iweibo.logic.MainService" />
+    </application>
+
+    
+
+</manifest>
